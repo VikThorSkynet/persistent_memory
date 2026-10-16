@@ -4,6 +4,24 @@ Memória de projeto em Markdown, versionada junto do código, para retomar traba
 
 O próprio agente cria as pastas, lê a memória e atualiza os registros seguindo a skill. O Git leva as versões publicadas para outro computador. O kit contém apenas instruções, modelos e configuração: não há programa para instalar ou executar.
 
+## Por que usar memória persistente?
+
+Ao iniciar uma nova conversa, trocar de agente ou voltar a um projeto depois de um tempo, decisões e descobertas anteriores podem ficar fora do contexto disponível. Isso pode levar a explicações repetidas, tentativas que já falharam e mudanças que ignoram escolhas importantes.
+
+**A memória persistente guarda o contexto do trabalho dentro do próprio projeto:** objetivo, decisões e seus motivos, bugs e soluções, testes, pendências e próximo passo. Assim, outro agente ou uma nova conversa pode consultar esses registros e continuar com mais clareza, reduzindo retrabalho e ajudando a manter a coerência do projeto. A qualidade dessa continuidade depende de manter os registros úteis e conferir o estado real dos arquivos.
+
+## Inspiração e proposta
+
+A inspiração veio do [ai-memory, de Fabio Akita](https://github.com/akitaonrails/ai-memory), e do artigo [“Criei um Sistema de Memória pra Agentes de Código: ai-memory”](https://akitaonrails.com/2026/05/23/criei-sistema-memoria-agentes-codigo-ai-memory/). A ideia de preservar conhecimento entre sessões e ferramentas motivou este projeto.
+
+O ai-memory oferece servidor, índice SQLite e automações de memória, com opções de instalação nativa ou Docker. A proposta do **persistent_memory** é adotar uma abordagem mais simples e por projeto: arquivos Markdown, configuração e uma skill que orienta o próprio agente a ler e atualizar o contexto. Cada projeto carrega sua memória junto do código, transportada pelo Git, sem precisar manter servidor, banco de dados ou contêiner para este kit.
+
+## Guia visual interativo
+
+Abra [GUIA_VISUAL.html](docs/GUIA_VISUAL.html) no navegador para explorar instalação, retomada, registros, bugs, branches, publicação, merge e troca de computador. O guia também mostra o papel de cada arquivo e como atualizar o kit preservando a memória. É um arquivo único que funciona offline; somente os links externos precisam de internet.
+
+No GitHub, o HTML aparece como código: baixe o arquivo e abra-o no navegador. O arquivo inclui o conteúdo, o visual e as interações para funcionar localmente.
+
 ## Instalar com um pedido ao agente
 
 Abra seu projeto no Codex, Claude Code ou outro agente com acesso à internet e aos arquivos. Copie e cole este bloco na conversa:
