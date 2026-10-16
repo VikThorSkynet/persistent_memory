@@ -4,6 +4,6 @@
   "titulo": "Primeira versão do kit de memória",
   "branch": "feat/kit-inicial",
   "base_commit": null,
-  "situacao": "ativa",
+  "situacao": "integrada",
   "criada_em": "2026-10-16T17:53:56-03:00"
 }

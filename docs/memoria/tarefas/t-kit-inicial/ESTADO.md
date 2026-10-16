@@ -1,10 +1,10 @@
 # Estado da primeira versão do kit
 
-Identidade e branch: [tarefa.json](tarefa.json). Repositório sem commit inicial. Atualização: 16/10/2026, America/Sao_Paulo.
+Identidade e branch de origem: [tarefa.json](tarefa.json). Integrada na main em 16/10/2026, America/Sao_Paulo.
 
 ## Objetivo e etapa atual
 
-Entregar kit de memória apenas em arquivos, instalado e mantido pelo agente. A v0.2.1 inclui o link persistente do repositório e a pergunta obrigatória quando um pedido de merge estiver sem destino conhecido. Preparado localmente, aguardando teste de retomada nos agentes e autorização de publicação.
+Entregar kit de memória apenas em arquivos, instalado e mantido pelo agente. A v0.2.1 inclui o link persistente do repositório e a pergunta obrigatória quando um pedido de merge estiver sem destino conhecido. Publicada e integrada na main por autorização explícita do usuário. Teste de retomada nos agentes ainda pendente.
 
 ## Arquivos relevantes
 
@@ -28,4 +28,4 @@ Teste real em novas conversas do Codex e Claude Code: pendente do usuário.
 
 ## Publicação e próximo passo
 
-Sem commit, push ou merge. Entregar ZIP atualizado para teste. Corrigir problemas demonstrados; publicar somente quando autorizado no escopo atual e tratar merge separadamente.
+Pedido atual do usuário: fazer o merge. O repositório foi confirmado pelo link salvo. Como estava vazio, a entrega foi publicada inicialmente na main, com o commit `fda4657466359a2906eeef4720a2ec8afbb1478d` confirmado no remoto. Não houve PR nem merge entre histórias existentes. Consulte a [passagem da publicação](sessoes/2026-10-16-publicacao-main.md). Próximo passo: teste de retomada e eventuais ajustes em uma nova tarefa; a autorização desta entrega não autoriza novas publicações por conta própria.

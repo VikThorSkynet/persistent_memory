@@ -30,7 +30,7 @@ Não faça commit, push ou merge sem autorização no escopo atual.
 
 O agente baixa e instala o kit; você não precisa baixar ou copiar os arquivos manualmente. O projeto de destino mantém seu próprio repositório e passa a conter a skill e a memória.
 
-Enquanto esta versão estiver apenas local, substitua o link no bloco pela pasta do kit ou pelo ZIP desta entrega. A instalação pelo endereço do GitHub estará disponível depois que os arquivos forem publicados nesse repositório.
+O kit está publicado neste repositório e pode ser baixado pelo agente usando o link acima. Para usar uma cópia local, substitua o link no bloco pela pasta do kit ou pelo ZIP correspondente.
 
 ## Instalar em um projeto
 

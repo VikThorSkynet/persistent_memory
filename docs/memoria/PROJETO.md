@@ -6,7 +6,7 @@ Kit reutilizável para o usuário colocar memória persistente em seus projetos,
 
 ## Base integrada conhecida
 
-O remoto estava vazio em 16/10/2026. Ainda não há versão integrada/publicada na main. A primeira implementação local está na tarefa [t-kit-inicial](tarefas/t-kit-inicial/ESTADO.md), branch `feat/kit-inicial`; não confundir seu estado com uma release disponível no GitHub.
+Em 16/10/2026, a versão 0.2.1 foi publicada na main a partir da tarefa [t-kit-inicial](tarefas/t-kit-inicial/ESTADO.md), originada em `feat/kit-inicial`. Commit inicial de conteúdo: `fda4657466359a2906eeef4720a2ec8afbb1478d`, confirmado em origin/main após o push. O remoto estava vazio, portanto foi uma publicação inicial sem PR ou merge entre histórias existentes. Atualizações documentais posteriores registram o resultado; confira a referência remota atual quando precisar do HEAD mais recente.
 
 ## Requisitos confirmados
 
@@ -26,4 +26,4 @@ O remoto estava vazio em 16/10/2026. Ainda não há versão integrada/publicada 
 
 ## Limitações e pendências
 
-A implementação e suas verificações pertencem à branch da tarefa. Teste de retomada em conversas novas do Codex e Claude Code ainda precisa ser realizado pelo usuário. macOS/Linux não foram executados nesta entrega. Nenhuma licença foi atribuída em nome do autor.
+A implementação está integrada na main. O usuário autorizou a integração explicitamente; isso não foi registrado como aprovação de um teste humano. Teste de retomada em conversas novas do Codex e Claude Code ainda precisa ser realizado pelo usuário. macOS/Linux não foram executados nesta entrega. Nenhuma licença foi atribuída em nome do autor.
