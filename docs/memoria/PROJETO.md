@@ -8,6 +8,8 @@ Kit reutilizável para o usuário colocar memória persistente em seus projetos,
 
 Em 16/10/2026, a versão 0.2.1 foi publicada na main a partir da tarefa [t-kit-inicial](tarefas/t-kit-inicial/ESTADO.md), originada em `feat/kit-inicial`. Commit inicial de conteúdo: `fda4657466359a2906eeef4720a2ec8afbb1478d`, confirmado em origin/main após o push. O remoto estava vazio, portanto foi uma publicação inicial sem PR ou merge entre histórias existentes. Atualizações documentais posteriores registram o resultado; confira a referência remota atual quando precisar do HEAD mais recente.
 
+Depois, a tarefa [t-guia-visual](tarefas/t-guia-visual/ESTADO.md) foi integrada na main pelo merge `08c9569c866ceccb585ff1adacedc8860edb7a9b`, confirmado no remoto. Inclui o [guia HTML](../GUIA_VISUAL.html) e o README com importância da memória e inspiração no ai-memory/artigo de Akita. O HTML abre localmente e está versionado; hospedagem GitHub Pages não foi configurada. Anotações de memória posteriores não mudam o SHA desse merge de conteúdo.
+
 ## Requisitos confirmados
 
 - Pasta organizada e uma fonte de procedimento comum aos agentes.

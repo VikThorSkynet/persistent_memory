@@ -10,7 +10,7 @@ Pedido do usuário: criar um HTML bem visual para explicar todos os fluxos e o f
 
 [GUIA_VISUAL.html](../../../GUIA_VISUAL.html) contém visão geral, fluxos passo a passo, árvore de arquivos clicável, simulação de branches e integração, regra de repositório do merge, prompt de instalação copiável e perguntas frequentes. Os exemplos são identificados como ilustrativos e a página não executa operações no projeto ou GitHub.
 
-README inclui o acesso ao guia e explica como abrir o HTML baixado. Esta implementação ainda não está integrada na main.
+README inclui o acesso ao guia e explica como abrir o HTML baixado. Esta implementação foi integrada e publicada na main em 16/10/2026, com o HTML incluído explicitamente no escopo autorizado.
 
 Complemento solicitado pelo usuário: o início do README explica por que a memória persistente é importante e credita a inspiração no ai-memory e no artigo de Fabio Akita. Destaca a proposta simples e por projeto, com arquivos e skill mantidos pelo agente. As fontes foram consultadas; Docker foi descrito como opção de implantação do ai-memory, sem afirmar que é obrigatório.
 
@@ -22,4 +22,6 @@ Revisão visual das capturas de desktop e celular realizada. Ferramentas e captu
 
 ## Entrega e próximo passo
 
-Teste do usuário não informado. O pedido atual autoriza publicar e integrar esta entrega no GitHub, incluindo explicitamente o HTML. Preparar commit da branch e merge na main, conferindo as referências remotas antes de registrar o resultado.
+Teste do usuário não informado. Os pedidos atuais autorizaram publicação e merge, incluindo o HTML. Commit de conteúdo `6863d950e9fe2d16d56693355c1379cfb131d8d4` publicado em docs/guia-visual; merge `08c9569c866ceccb585ff1adacedc8860edb7a9b` publicado e confirmado em origin/main. Não houve conflito. O arquivo HTML está no repositório; não foi configurada hospedagem GitHub Pages.
+
+Próximo passo: usar o guia e testar a retomada do kit em conversas novas. Este registro documenta a entrega autorizada e não permite novas publicações sem escopo atual.
