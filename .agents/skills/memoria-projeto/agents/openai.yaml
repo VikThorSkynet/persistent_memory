@@ -1,0 +1,6 @@
+interface:
+  display_name: "Memória de projeto"
+  short_description: "Retome contexto, decisões, bugs e tarefas por branch"
+  default_prompt: "Use $memoria-projeto para retomar o contexto deste projeto e atualizar sua memória durante o trabalho."
+policy:
+  allow_implicit_invocation: true

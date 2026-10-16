@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kit_version": "0.2.1",
+  "projeto": {
+    "nome": "persistent_memory",
+    "tipo": "kit-de-memoria-para-projetos",
+    "idioma": "pt-BR",
+    "branch_principal": "main",
+    "repositorio_url": "https://github.com/VikThorSkynet/persistent_memory"
+  },
+  "comandos": {
+    "desenvolvimento": [],
+    "testes": [],
+    "build": []
+  },
+  "memoria": {
+    "meta_linhas_resumo": 150
+  },
+  "fluxo": {
+    "teste_humano_antes_publicacao": true,
+    "autorizacao_publicacao": true,
+    "autorizacao_merge_separada": true,
+    "regressao_bug": "automatica-ou-manual-documentada"
+  }
+}
